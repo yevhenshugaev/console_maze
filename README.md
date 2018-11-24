@@ -1,7 +1,7 @@
 # console_maze
-Create and test a maze of arbitrary size, class SPACE:
+Класс SPACE предоставляет функции для работы с лабиринтом произвольного размера ( 10 < (size%2!=0) < 100 ). 
 
-show();					// show maze
-create();		  	// create maze
-utravel();			// manual control
-atravel();			// auto control 
+create();		  	// создать лабаринт ( используется алгоритм двоичного дерева ) 
+show();         // отображаем созданный лабиринт 
+utravel();			// прохождение в ручном режиме ( для управления: W S A D ) 
+atravel();			// автоматическое прохождение ( рекурсивно, по методу правой руки )
